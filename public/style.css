@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: #FCEAFF;
+    border-bottom: 2px solid black;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media{
+    font-size: 25px;
+}
+.social-media i{
+    margin: 5px;
+    color: black;
+}
+.fondo-gradiente{
+    background: rgb(129,62,244);
+    background: linear-gradient(279deg, rgba(129,62,244,1) 0%, rgba(255,57,132,1) 29%, rgba(249,248,113,1) 100%);}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+header h2{
+    font-size: 16px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
